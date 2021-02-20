@@ -32,9 +32,6 @@ public class Synchronization_Practices {
         Assert.assertTrue(loading7Page.doneMessage.isDisplayed());
 
 
-
-
-
     }
 
 }

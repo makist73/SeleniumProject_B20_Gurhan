@@ -42,7 +42,7 @@ public class P2_CybertekURLVerification {
             System.out.println("Title verification FAILED!!!");
         }
 
-        //BREAK UNTIL 11.30AM CST, 12.30PM EST
+
 
     }
 
