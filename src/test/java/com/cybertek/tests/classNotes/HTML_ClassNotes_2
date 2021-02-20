@@ -1,0 +1,102 @@
+AUG 11th, Tuesday
+What we will do?
+#1 - Recap
+#2 - Warm up task
+#1 - Recap
+    What is front end?
+        -> Everything we see on a web page is front-end.
+        -> User interface-UI is another name of the front-end.
+        ->
+    What is back-end?
+        -> Everything else. Everything other than the front-end is considered back-end.
+    What do we have in the back-end?
+        -> Business logic, business calculations etc happens in the back-end
+        -> Servers, database, API etc.
+    What is HTML?
+        -> HTML : Hypertext markup language
+        -> HTML is used to create certain structure in a web page.
+        -> It uses tags to create that structure.
+    What is a tag?
+        -> Tags act like containers in HTML.
+        -> Different types of tags will create different types of structure.
+        -> Whatever we put in a tag, will be displayed in that tags special structure.
+            ex: <h1> the font will be big
+                <h6> the font will be small
+    How many types of tags are there?
+        -> 2 types of tags.
+        #1- Paired Tags     :
+            -> Paired tags has both opening and closing tags.
+            ex syntax: <tag> content </tag>
+            ex: - <strong> </strong>
+                - head
+                - em
+                - ol
+                - ul
+                - li
+                - p
+                - h1
+                - title
+                - body
+                - html
+        #2- Unpaired Tags   :
+            - Self closing tags.
+            - If a tag does not have a closing tag, it means it is unpaired tag, self closing tag.
+            syntax: < tag />
+            ex: - <hr>
+                - <br>
+                - <img>
+HTML STRUCTURE:
+
+    - The structure that we need to follow to create a correct HTML document.
+    #1 - Doctype declaration
+        -> Tells our browser which version of HTML is being used.
+    #2 - HTML tag:
+        -> HTML tag is the parent/ascendent of every other web element that comes into the HTML document.
+    #3 - Head tag:
+        -> Everything that is not displayed on the page goes into <head> tag.
+        -> such as: titles, <link> etc.
+    #4 - Body tag:
+        -> Everything we see on the page goes into the body tag.
+What tags we have covered so far?
+    - <p>     :
+        - Stands for paragraph.
+        - And is used to store longers texts.
+    - <title>
+        - Title tag stores the title of the page.
+        - Title is displayed in the tab
+        - Title is what comes up when you search something in the search engine.
+    - <br>
+        - Stands for line break.
+        - Basically it just pushes everything that comes after it to a next line.
+    - <hr>
+        - Stands for horizontal ruler.
+        - It just creates a single line ruler in the web page.
+    - <em>
+        - Stands for emphasized
+        - It makes the text italic, just a little bit tilted to the right.
+    - <strong> , <b> (not deprecated yet)
+        - It makes the text bolded.
+    - <u>
+        - Stands for underlined.
+        - It creates an underlining to the text it surrounds.
+    - <ul>
+        - Stands for unordered list.
+        - List items created using <li>
+        - List items will be displayed WITHOUT any number, just as bullet points.
+    - <ol>
+        - Stands for ordered list
+        - List items created using <li>
+        - List items will be displayed WITH numbers.
+
+    - <h1> through <h6>
+        - This is for headers.
+        - <h1> is for main header
+        - <h2> is for sub-header
+        - The bigger the number, the smaller the text.
+What is an attribute?
+    - An attribute is created in the opening tag of any tag.
+    - Attributes provides additional information about that specific tag.
+    - We can have more than one attribute for tags.
+    - Tags are always inside of the diamond brackets of opening tag <>
+    syntax: <openingTag attribute="value"> content goes here </closing tag>
+    ex: <h1 style="color:blue"> this is my header </h1>
